@@ -10,7 +10,7 @@ pip install -r requirements.txt
 * In <ins>fsha</ins> , you may find the code for Hijacking attack on models with and without the dense layer and make sure of the data protection.
 * Please, run  ```FSHA.ipynb```, ```model_inversion_stealing.ipynb```, ```dp_defense.ipynb``` to observe the defense results at your convenience.
 ## Implementation details
-Our work defends against the model inversion attack from ["Unsplit" (Erdogan et al., 2022)](https://arxiv.org/abs/2108.09033) and Feature-Space-Hijacking attack (FSHA) from ["Unleashing the Tiger" (Pasquini et al., 2021)](https://arxiv.org/abs/2012.02670).
+Our work defends against the model inversion attack from ["Unsplit" (Erdogan et al., 2022)](https://arxiv.org/abs/2108.09033) ([code](https://github.com/ege-erdogan/unsplit))and Feature-Space-Hijacking attack (FSHA) from ["Unleashing the Tiger" (Pasquini et al., 2021)](https://arxiv.org/abs/2012.02670) ([code](https://github.com/pasquini-dario/SplitNN_FSHA)).
 
 In both cases, the necessary hyperparameters are required, we list them below:
 
